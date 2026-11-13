@@ -1,4 +1,4 @@
-# Ollama Chat (PowerShell + WPF)
+# Snw Ollama GUI Chat (PowerShell + WPF)
 
 > A dependency-free Windows desktop chat client for local **Ollama** models,
 > with streaming responses, Markdown/code rendering, file attachments,
@@ -42,7 +42,7 @@
 
 ## 🧭 Overview
 
-**Ollama Chat** is a lightweight desktop chat client for [Ollama](https://ollama.com),
+**SnwOllamaGUI Chat** is a lightweight desktop chat client for [Ollama](https://ollama.com),
 built entirely with **PowerShell 5.1 + WPF**. It requires **no Python, no Node.js,
 no package manager, and no installer** — just a Windows machine, PowerShell, and a
 running Ollama server.
@@ -424,5 +424,5 @@ This project is released under the **MIT License**. See `LICENSE` for details.
 ---
 
 <p align="center">
-  <sub>Built with ❤️ using PowerShell + WPF — no Python, no Node.js, no installers.</sub>
+  <sub>Built with ❤️ in Yemen using PowerShell + WPF — no Python, no Node.js, no installers.</sub>
 </p>
