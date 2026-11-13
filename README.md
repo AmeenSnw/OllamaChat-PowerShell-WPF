@@ -68,7 +68,7 @@ A lightweight, feature-rich, zero-dependency desktop GUI client for [Ollama](htt
    Right-click `SnwOllamaGUIv18.ps1` and select **Run with PowerShell**, or launch it from a terminal:
 
    ```
-   powershell -ExecutionPolicy Bypass -File .\SnwOllamaGUIv18.ps1
+   powershell -ExecutionPolicy Bypass -File .\SnwOllamaGUI.ps1
    
    ```
 
