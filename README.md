@@ -50,6 +50,7 @@ running Ollama server.
 It was designed for bilingual (Arabic/English) users and for developers who want a
 fast, local, privacy-respecting chat UI that can render code, tables, and files
 without leaving the desktop.
+![Ollama Chat screenshot](https://raw.githubusercontent.com/AmeenSnw/OllamaChat-PowerShell-WPF/refs/heads/main/SnwOllamaScreen.png)
 
 ---
 
