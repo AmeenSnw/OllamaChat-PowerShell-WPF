@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Data
 
 # ==================== App Paths ====================
-$script:AppDataDir         = Join-Path $env:APPDATA "OllamaChat"
+$script:AppDataDir         = Join-Path $env:APPDATA "SnwOllamaChat"
 $script:SettingsFile       = Join-Path $script:AppDataDir "settings.json"
 $script:ConvosDir          = Join-Path $script:AppDataDir "conversations"
 if (-not (Test-Path $script:AppDataDir)) { New-Item -ItemType Directory -Path $script:AppDataDir -Force | Out-Null }
@@ -164,7 +164,7 @@ Load-AppSettings
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Name="MainWindow"
-        Title="Ollama Chat v0.040" Height="820" Width="1200"
+        Title="Snw Ollama Chat" Height="820" Width="1200"
         FlowDirection="LeftToRight"
         WindowStartupLocation="CenterScreen"
         Background="#F5F5F5">
@@ -1651,7 +1651,7 @@ function Show-SettingsWindow {
                         <CheckBox x:Name="ShowCodeCheckbox"     Grid.Row="5" Content="Show Preview pane" Margin="0,5,0,5" FontWeight="SemiBold"/>
                         <CheckBox x:Name="SendWithCtrlEnterCheckbox" Grid.Row="6" Content="Send with Ctrl+Enter (Enter adds new line)" Margin="0,5,0,5" FontWeight="SemiBold"/>
 
-                        <TextBlock Grid.Row="7" Text="Settings are saved automatically to %APPDATA%\OllamaChat\settings.json" FontSize="11" Foreground="Gray" Margin="0,10,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Grid.Row="7" Text="Settings are saved automatically to %APPDATA%\SnwOllamaChat\settings.json" FontSize="11" Foreground="Gray" Margin="0,10,0,0" TextWrapping="Wrap"/>
                     </Grid>
                 </ScrollViewer>
             </TabItem>
